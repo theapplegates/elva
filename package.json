@@ -4,7 +4,7 @@
   "description": "A multilingual, clean, green, 11ty starter theme",
   "main": "index.js",
   "scripts": {
-    "build": "export NODE_ENV=production && rimraf dist && eleventy",
+    "build": "export NODE_ENV=production && rimraf dist && eleventy && npx -y pagefind --site dist",
     "dev": "eleventy --serve --watch",
     "clean": "rimraf dist",
     "test": "echo \"Error: no test specified\" && exit 1",

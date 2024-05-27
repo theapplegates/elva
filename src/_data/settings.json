@@ -3,11 +3,11 @@
 	"themeColorDark": "#2e3440",
 	"cdn": false,
 	"author": {
-		"name": "Scott Evans",
-		"email": "noreply@example.com",
-		"url": "https://scott.ee",
-		"location": "Stockholm, Sweden",
-		"fediverseProfile": "https://toot.scott.ee/@scott"
+		"name": "Paul Applegate",
+		"email": "me@paulapplegate.com",
+		"url": "https://elva.paulapplegate.com",
+		"location": "Ohio, US",
+		"fediverseProfile": ""
 	},
 	"meta": {
 		"separator": "•",
