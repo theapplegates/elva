@@ -8,6 +8,11 @@ html {
 	overflow-y: scroll;
 }
 
+img {
+  width: 100%;
+  height: auto;
+}
+
 body {
     background-color: var(--background);
     color: var(--foreground);

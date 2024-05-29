@@ -2,6 +2,7 @@
 title: Getting started
 date: 2023-08-06
 ---
+<img data-src="https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_auto/dpr_auto,f_auto,q_auto/hillshire-farm-2_fx2mno.jpg" class="cld-responsive">
 
 Make a directory and navigate to it:
 
