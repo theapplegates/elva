@@ -39,7 +39,7 @@
     --code-function: var(--nord8);
 
     /* typography */
-    --font-base: Caveat, sans-serif;
+    --font-base: Caveat;
     --font-headings: "Caveat Brush";
     --font-quote: var();
     --font-mono: "Fira Code", Consolas, Monaco, "Andale Mono", "Ubuntu Mono",
