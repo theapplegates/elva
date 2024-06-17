@@ -1,30 +1,32 @@
 @media (prefers-reduced-motion) {
-	* {
-		transition: none !important;
-	}
+    * {
+        transition: none !important;
+    }
 }
 
 html {
-	overflow-y: scroll;
+    overflow-y: scroll;
 }
 
 img {
-  width: 100%;
-  height: auto;
+    width: 90%;
+    height: auto;
 }
 
 body {
     background-color: var(--background);
     color: var(--foreground);
-    font-family: var('Shantell Sans');
+    font-family: var(Caveat);
     font-size: var(--size-step-min-1);
     line-height: 1.4;
     letter-spacing: var(--tracking);
-    transition: background var(--transition-base), color var(--transition-base);
+    transition:
+        background var(--transition-base),
+        color var(--transition-base);
 }
 
-[x-cloak] { 
-    display: none !important; 
+[x-cloak] {
+    display: none !important;
 }
 
 ::selection {
@@ -43,7 +45,7 @@ body {
 :focus:not(:focus-visible) {
     outline: none;
 }
-  
+
 :target {
     scroll-margin-top: 2ex;
 }
@@ -51,7 +53,7 @@ body {
 a {
     color: var(--link);
 }
-  
+
 a:hover {
     color: var(--link-hover);
     text-decoration: none;
@@ -130,7 +132,7 @@ blockquote:not([class]) {
     font-family: var(--font-serif);
     font-size: var(--step-1);
 }
-  
+
 blockquote:not([class]) p:last-of-type {
     font-family: var(--font-base);
     font-size: var(--size-step-1);
@@ -140,7 +142,7 @@ blockquote:not([class]) p:last-of-type {
 blockquote p::before {
     content: open-quote;
 }
-  
+
 blockquote p::after {
     content: close-quote;
 }
@@ -151,7 +153,7 @@ h6,
 p,
 li,
 blockquote:not([class]) {
-  max-width: 65ch;
+    max-width: 65ch;
 }
 
 p:has(> picture) {
@@ -162,7 +164,7 @@ p:has(> picture) {
 h1,
 h2,
 h3 {
-  max-width: 20ch;
+    max-width: 20ch;
 }
 
 mark {
@@ -204,7 +206,7 @@ figure > figcaption::selection {
 
 .screen-reader-text {
     border: 0;
-    clip: rect(1px,1px,1px,1px);
+    clip: rect(1px, 1px, 1px, 1px);
     clip-path: inset(50%);
     height: 1px;
     margin: -1px;
@@ -241,7 +243,8 @@ figure > figcaption::selection {
 /* notice */
 
 .notice {
-    padding: var(--space-s) var(--space-s) calc(var(--space-s) - 4px) var(--space-s);
+    padding: var(--space-s) var(--space-s) calc(var(--space-s) - 4px)
+        var(--space-s);
     border-radius: var(--border-radius);
     color: var(--white);
     background-color: var(--nord9);
@@ -283,8 +286,8 @@ body {
 /* skip to content */
 
 .skip-link {
-	transform: translateY( -140px );
-	transition: var(--transition-base);
+    transform: translateY(-140px);
+    transition: var(--transition-base);
     padding: var(--space-s-l);
     background-color: var(--foreground);
     color: var(--background);
@@ -299,12 +302,12 @@ body {
 }
 
 .skip-link:focus {
-	transform: translateY( 0 );
-	position: fixed;
-	display: block;
-	clip: auto !important;
-	clip-path: none;
-	height: auto;
+    transform: translateY(0);
+    position: fixed;
+    display: block;
+    clip: auto !important;
+    clip-path: none;
+    height: auto;
     width: 100%;
     z-index: 10;
 }
@@ -442,11 +445,11 @@ a[aria-current="page"] {
     }
 
     .posts .meta-reading-time::before {
-        content: '•';
+        content: "•";
         display: inline-block;
         padding-left: var(--space-2xs);
         padding-right: var(--space-2xs);
-    }    
+    }
 }
 
 .posts .meta-date,
@@ -493,51 +496,22 @@ a[aria-current="page"] {
     display: block;
 }
 
-/* shantell-sans-300 - latin */
+/* caveat-brush-regular - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Shantell Sans';
-  font-style: normal;
-  font-weight: 300;
-  src: url('/src/assets/fonts/shantellSans/shantell-sans-v9-latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: "Caveat Brush";
+    font-style: normal;
+    font-weight: 400;
+    src: url("/src/assets/fonts/caveat-brush/caveat-brush-v11-latin-regular.woff2")
+        format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
-/* shantell-sans-300italic - latin */
+
+/* caveat-regular - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Shantell Sans';
-  font-style: italic;
-  font-weight: 300;
-  src: url('/src/assets/fonts/shantellSans/shantell-sans-v9-latin-300italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-/* shantell-sans-regular - latin */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Shantell Sans';
-  font-style: normal;
-  font-weight: 400;
-  src: url('/src/assets/fonts/shantellSans/shantell-sans-v9-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-/* shantell-sans-italic - latin */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Shantell Sans';
-  font-style: italic;
-  font-weight: 400;
-  src: url('/src/assets/fonts/shantellSans/shantell-sans-v9-latin-italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-/* shantell-sans-800 - latin */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Shantell Sans';
-  font-style: normal;
-  font-weight: 800;
-  src: url('/src/assets/fonts/shantellSans/shantell-sans-v9-latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-/* shantell-sans-800italic - latin */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Shantell Sans';
-  font-style: italic;
-  font-weight: 800;
-  src: url('/src/assets/fonts/shantellSans/shantell-sans-v9-latin-800italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: "Caveat";
+    font-style: normal;
+    font-weight: 400;
+    src: url("/src/assets/fonts/caveat/caveat-v18-latin-regular.woff2")
+        format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
