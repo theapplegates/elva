@@ -18,8 +18,8 @@
 		<meta name="description" content="{{ d }}">
 
         <!-- canonical / alternates -->
-        <link rel="stylesheet" href="/assets/css/variables.css">
-        <link rel="stylesheet" href="/assets/css/styles.css">
+        <link rel="stylesheet" href="./assets/css/variables.css">
+        <link rel="stylesheet" href="./assets/css/styles.css">
         <link rel="canonical" href="{{ u }}">
         <link rel="alternate" hreflang="{{ page.lang }}" href="{{ u }}">
         {%- for link in page.url | locale_links %}<link rel="alternate" hreflang="{{ link.lang }}" href="{{ settings.url }}{{ link.url }}">{% endfor %}
