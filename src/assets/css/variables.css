@@ -39,7 +39,7 @@
     --code-function: var(--nord8);
 
     /* typography */
-    --font-base: Caveat;
+    --font-base: "Caveat";
     --font-headings: "Caveat Brush";
     --font-quote: var();
     --font-mono: "Fira Code", Consolas, Monaco, "Andale Mono", "Ubuntu Mono",
@@ -114,7 +114,7 @@
     font-family: "Caveat Brush";
     font-style: normal;
     font-weight: 400;
-    src: url("/src/assets/fonts/caveat-brush/caveat-brush-v11-latin-regular.woff2")
+    src: url("/src/assets/fonts/caveat-brush-v11-latin-regular.woff2")
         format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
@@ -124,6 +124,6 @@
     font-family: "Caveat";
     font-style: normal;
     font-weight: 400;
-    src: url("/src/assets/fonts/caveat/caveat-v18-latin-regular.woff2")
+    src: url("/src/assets/fonts/caveat-v18-latin-regular.woff2")
         format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }

@@ -6,6 +6,7 @@
 
 html {
     overflow-y: scroll;
+    font-family: var(--font-base);
 }
 
 img {
@@ -16,7 +17,7 @@ img {
 body {
     background-color: var(--background);
     color: var(--foreground);
-    font-family: var(--font-base);
+    var(--font-base);
     font-size: var(--size-step-min-1);
     line-height: 1.4;
     letter-spacing: var(--tracking);
@@ -502,7 +503,7 @@ a[aria-current="page"] {
     font-family: "Caveat Brush";
     font-style: normal;
     font-weight: 400;
-    src: url("/src/assets/fonts/caveat-brush/caveat-brush-v11-latin-regular.woff2")
+    src: url("./src/assets/fonts/caveat-brush-v11-latin-regular.woff2")
         format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
@@ -512,6 +513,6 @@ a[aria-current="page"] {
     font-family: "Caveat";
     font-style: normal;
     font-weight: 400;
-    src: url("/src/assets/fonts/caveat/caveat-v18-latin-regular.woff2")
+    src: url("./src/assets/fonts/caveat-v18-latin-regular.woff2")
         format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
