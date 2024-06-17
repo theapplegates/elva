@@ -2,6 +2,11 @@
 <html lang="{{ locales[page.lang].locale or page.lang }}" dir="{{ locales[page.lang].dir or 'ltr' }}" x-data :data-theme="$store.elva.theme">
     <head>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/cloudinary-core/2.12.3/cloudinary-core-shrinkwrap.js" integrity="sha512-KMNn99TvNv6bP4D0H1gNhpVSAf5xds74pMwodUgdMcBUkhDn4Wy0bVXPWs+R/dKJU9HKCQg/9ddC9Ji91OsL6A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+        </style>
+
         
         {%- set t = ((seo.title or title) + ' ' + settings.meta.separator + ' ' + ('meta.title' | translate) if (seo.title or title) else ('meta.title' | translate)) %}
         {%- set d = seo.description or ('meta.description' | translate) %}

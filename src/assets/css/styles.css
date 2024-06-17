@@ -1,33 +1,25 @@
 @media (prefers-reduced-motion) {
-     {
+    * {
         transition: none !important;
     }
 }
 
 html {
     overflow-y: scroll;
-    font-family: var(--font-base);
-}
-
-img {
-    width: 90%;
-    height: auto;
 }
 
 body {
     background-color: var(--background);
     color: var(--foreground);
-    var(--font-base);
-    font-size: var(--size-step-min-1);
+    font-family: var(--font-base);
+    font-size: var(--step-0);
     line-height: 1.4;
     letter-spacing: var(--tracking);
-    transition:
-        background var(--transition-base),
-        color var(--transition-base);
+    transition: background var(--transition-base), color var(--transition-base);
 }
 
-[x-cloak] {
-    display: none !important;
+[x-cloak] { 
+    display: none !important; 
 }
 
 ::selection {
@@ -46,7 +38,7 @@ body {
 :focus:not(:focus-visible) {
     outline: none;
 }
-
+  
 :target {
     scroll-margin-top: 2ex;
 }
@@ -54,7 +46,7 @@ body {
 a {
     color: var(--link);
 }
-
+  
 a:hover {
     color: var(--link-hover);
     text-decoration: none;
@@ -109,11 +101,11 @@ h3 {
 }
 
 h1 {
-    font-size: var(--step-3);
+    font-size: var(--step-4);
 }
 
 h2 {
-    font-size: var(--step-2);
+    font-size: var(--step-3);
 }
 
 h3 {
@@ -133,7 +125,7 @@ blockquote:not([class]) {
     font-family: var(--font-serif);
     font-size: var(--step-1);
 }
-
+  
 blockquote:not([class]) p:last-of-type {
     font-family: var(--font-base);
     font-size: var(--size-step-1);
@@ -143,7 +135,7 @@ blockquote:not([class]) p:last-of-type {
 blockquote p::before {
     content: open-quote;
 }
-
+  
 blockquote p::after {
     content: close-quote;
 }
@@ -154,7 +146,7 @@ h6,
 p,
 li,
 blockquote:not([class]) {
-    max-width: 65ch;
+  max-width: 65ch;
 }
 
 p:has(> picture) {
@@ -165,7 +157,7 @@ p:has(> picture) {
 h1,
 h2,
 h3 {
-    max-width: 20ch;
+  max-width: 20ch;
 }
 
 mark {
@@ -207,7 +199,7 @@ figure > figcaption::selection {
 
 .screen-reader-text {
     border: 0;
-    clip: rect(1px, 1px, 1px, 1px);
+    clip: rect(1px,1px,1px,1px);
     clip-path: inset(50%);
     height: 1px;
     margin: -1px;
@@ -244,8 +236,7 @@ figure > figcaption::selection {
 /* notice */
 
 .notice {
-    padding: var(--space-s) var(--space-s) calc(var(--space-s) - 4px)
-        var(--space-s);
+    padding: var(--space-s) var(--space-s) calc(var(--space-s) - 4px) var(--space-s);
     border-radius: var(--border-radius);
     color: var(--white);
     background-color: var(--nord9);
@@ -287,7 +278,7 @@ body {
 /* skip to content */
 
 .skip-link {
-    transform: translateY(-140px);
+    transform: translateY( -140px );
     transition: var(--transition-base);
     padding: var(--space-s-l);
     background-color: var(--foreground);
@@ -303,7 +294,7 @@ body {
 }
 
 .skip-link:focus {
-    transform: translateY(0);
+    transform: translateY( 0 );
     position: fixed;
     display: block;
     clip: auto !important;
@@ -446,11 +437,11 @@ a[aria-current="page"] {
     }
 
     .posts .meta-reading-time::before {
-        content: "•";
+        content: '•';
         display: inline-block;
         padding-left: var(--space-2xs);
         padding-right: var(--space-2xs);
-    }
+    }    
 }
 
 .posts .meta-date,
@@ -495,24 +486,4 @@ a[aria-current="page"] {
     color: var(--foreground-soft);
     font-size: var(--step--1);
     display: block;
-}
-
-/* caveat-brush-regular - latin */
-@font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: "Caveat Brush";
-    font-style: normal;
-    font-weight: 400;
-    src: url("./src/assets/fonts/caveat-brush-v11-latin-regular.woff2")
-        format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-
-/* caveat-regular - latin */
-@font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: "Caveat";
-    font-style: normal;
-    font-weight: 400;
-    src: url("./src/assets/fonts/caveat-v18-latin-regular.woff2")
-        format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
