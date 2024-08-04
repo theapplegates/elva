@@ -168,6 +168,18 @@ mark {
 figure {
     position: relative;
 }
+picture {
+    width: 100%;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+    margin-bottom: 5em;
+    display:block;
+    overflow: hidden;
+    line-height: 0;
+    img {
+      width: 100%;
+      transition: filter 0.5s,
+    }
+  }
 
 figure > figcaption {
     position: absolute;
