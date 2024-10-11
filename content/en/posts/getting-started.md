@@ -82,6 +82,20 @@ date: 2023-08-06
 	https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto,x_20,y_20/c_scale,w_250/e_shadow:75,x_20,y_20/v1728504254/ylpo8qctmwdfyso0cnp3.jpeg 250w">
   <img src="https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto,x_20,y_20/c_scale,w_250/e_shadow:75,x_20,y_20/v1728504254/ylpo8qctmwdfyso0cnp3.jpeg" alt="Responsive Image">
 </picture>
+<style>
+  .icon {
+	width: 1em;
+	height: 1em;
+	vertical-align: middle;
+  }
+</style>
+<p style="font-size: 10px; font-style: italic;">
+  <em>Photo by <a href="https://unsplash.com/photos/a-row-of-gondolas-sitting-next-to-a-wooden-pier-LQKN0a59JkM?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Andrei R. Popescu</a> on 
+	<svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+	  <path d="M448,230.17V480H0V230.17H141.13V355.09H306.87V230.17ZM306.87,32H141.13V156.91H306.87Z"/>
+	</svg>
+  </em>
+</p>
 
 Make a directory and navigate to it:
 
