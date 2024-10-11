@@ -4,12 +4,12 @@ date: 2023-08-06
 ---
 
 <img 
-data-src="https://res.cloudinary.com/paulapplegate-com/image/upload/f_jxl,q_auto,g_auto/c_limit,w_auto/e_shadow:75,x_20,y_20/dpr_auto/kevin-wang-Weg7V2kMeyY-unsplash_afxelz.jxl" 
+data-src="https://res.cloudinary.com/paulapplegate-com/image/upload/f_jxl,q_auto,g_auto/c_limit,w_auto/dpr_auto/e_shadow:75,x_20,y_20/kevin-wang-Weg7V2kMeyY-unsplash_afxelz.jxl" 
 class="cld-responsive">
 
 
 <img 
-data-src="https://res.cloudinary.com/paulapplegate-com/image/upload/f_jxl,q_auto,g_auto/c_limit,w_auto/e_shadow:75,x_20,y_20/dpr_auto/guillaume-chabrol-qWXG372ZLDU-unsplash_spduxa.jxl" 
+data-src="https://res.cloudinary.com/paulapplegate-com/image/upload/f_jxl,q_auto,g_auto/c_limit,w_auto/dpr_auto/e_shadow:75,x_20,y_20/guillaume-chabrol-qWXG372ZLDU-unsplash_spduxa.jxl" 
 class="cld-responsive">
 
 
