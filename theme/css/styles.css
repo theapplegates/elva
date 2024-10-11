@@ -18,6 +18,10 @@ body {
     transition: background var(--transition-base), color var(--transition-base);
 }
 
+img {
+  max-width: 100%;
+}
+
 [x-cloak] { 
     display: none !important; 
 }
