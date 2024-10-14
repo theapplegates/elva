@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "build": "rimraf dist && npx @11ty/eleventy && npx -y pagefind --site dist",
+    "build": "rimraf dist && npx @11ty/eleventy",
     "build:prod": "export NODE_ENV=production && rimraf dist && npx @11ty/eleventy",
     "build:stage": "export NODE_ENV=staging && rimraf dist && npx @11ty/eleventy",
     "dev": "npx @11ty/eleventy --watch --serve --incremental",
@@ -18,7 +18,7 @@
     "release-major": "npm version major --force && npm publish"
   },
   "bugs": {
-    "url": "https://github.com/scottsweb/elva/issues"
+    "url": "https://github.com/theapplegates/elva/issues"
   },
   "keywords": [
     "eleventy",
@@ -33,9 +33,9 @@
     "alpine"
   ],
   "author": {
-    "name": "Scott Evans",
-    "url": "https://scott.ee",
-    "email": "git@scott.ee"
+    "name": "Paul Applegate",
+    "url": "https://elva.paulapplegate.com",
+    "email": "me@paulapplegate.com"
   },
   "license": "MIT",
   "dependencies": {
