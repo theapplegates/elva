@@ -44,8 +44,8 @@
     "@11ty/eleventy-img": "^5.0.0",
     "@11ty/eleventy-plugin-rss": "^2.0.2",
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
-    "@alpinejs/intersect": "^3.14.1",
-    "alpinejs": "^3.14.1",
+    "@alpinejs/intersect": "^3.14.3",
+    "alpinejs": "^3.14.3",
     "clean-css": "^5.3.3",
     "eleventy-plugin-embed-everything": "^1.19.0",
     "html-minifier-terser": "^7.2.0",
@@ -57,6 +57,6 @@
     "mime-types": "^2.1.35",
     "node-html-to-image": "^5.0.0",
     "rimraf": "^6.0.1",
-    "terser": "^5.34.1"
+    "terser": "^5.36.0"
   }
 }
