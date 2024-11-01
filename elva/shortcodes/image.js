@@ -10,7 +10,7 @@ export default async function(src, alt, sizes, caption = '', classes = '', loadi
         outputDir: './dist/assets/img/',
         sharpWebpOptions: {
             options: {
-                quality: 70,
+                quality: 75,
             },
         }
     };
@@ -18,7 +18,7 @@ export default async function(src, alt, sizes, caption = '', classes = '', loadi
     if (( settings.isProduction || settings.isStaging ) && settings.cdn ) {
         meta = await Image('./content' + src, {
                 ...metadata,
-                formats: ['webp', 'auto'],
+                formats: ['avif', 'webp', 'auto'],
                 urlFormat: function({width}) {
                     return `//i0.wp.com/${settings.url.replace(/^https?:\/\//, '')}${src}?w=${width}&quality=70&strip=info`;
                 }
