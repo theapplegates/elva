@@ -20,7 +20,7 @@
     --nord15: #b48ead;
 
     /* colours */
-    --background: var(--nord6);
+    --background: var(--white);
     --background-soft: var(--nord4);
     --foreground: var(--nord0);
     --foreground-soft: color-mix(in srgb, var(--nord6) 30%, var(--nord0));
