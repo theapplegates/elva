@@ -1,16 +1,20 @@
 export default {
     en: [
 		{
+			text: 'Search',
+			url: '/search/'
+		},
+		{
 			text: 'About',
 			url: '/about/'
 		},
 		{
-			text: 'Documentation',
+			text: 'Blog',
 			url: '/'
 		},
 		{
 			text: 'GitHub',
-			url: 'https://github.com/scottsweb/elva'
+			url: 'https://github.com/theapplegates/elva'
 		}
     ],
     sv: [
@@ -24,7 +28,7 @@ export default {
 		},
 		{
 			text: 'GitHub',
-			url: 'https://github.com/scottsweb/elva'
+			url: 'https://github.com/theapplegates/elva'
 		}
     ]
 };
