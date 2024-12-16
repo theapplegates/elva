@@ -21,7 +21,7 @@
 
     /* colours */
     --background: var(--white);
-    --background-soft: var(--nord4);
+    --background-soft: var(--white);
     --foreground: var(--nord0);
     --foreground-soft: color-mix(in srgb, var(--nord6) 30%, var(--nord0));
     --link: color-mix(in srgb, var(--nord10) 70%, var(--nord0));
