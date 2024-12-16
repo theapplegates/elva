@@ -20,7 +20,7 @@
     --nord15: #b48ead;
 
     /* colours */
-    --background: var(--nord6);
+    --background: var(--white);
     --background-soft: var(--nord4);
     --foreground: var(--nord0);
     --foreground-soft: color-mix(in srgb, var(--nord6) 30%, var(--nord0));
@@ -29,7 +29,7 @@
     --divider: color-mix(in srgb, var(--nord6) 80%, var(--nord0));
 
     /* syntax highlighting */
-    --code-background: var(--nord0);
+    --code-background: var(--black);
     --code-default: var(--nord6);
     --code-regex: var(--nord13);
     --code-tag: var(--nord9);
