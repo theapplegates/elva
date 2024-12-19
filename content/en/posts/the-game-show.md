@@ -3,6 +3,39 @@ title: The Game Show
 date: 2024-12-18
 ---
 <div class="shadow-wrapper">
+<picture class="my-picture">
+  <source type="image/jxl" srcset="
+	https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto,x_30,y_30/c_scale,w_1014/e_shadow:100,x_30,y_30/v1734629657/dnxwkfsctis0ygmk6hyp.jxl 1014w,
+	https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto,x_30,y_30/c_scale,w_1011/e_shadow:100,x_30,y_30/v1734629657/dnxwkfsctis0ygmk6hyp.jxl 1011w,
+	https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto,x_30,y_30/c_scale,w_996/e_shadow:100,x_30,y_30/v1734629657/dnxwkfsctis0ygmk6hyp.jxl 996w,
+	https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto,x_30,y_30/c_scale,w_936/e_shadow:100,x_30,y_30/v1734629657/dnxwkfsctis0ygmk6hyp.jxl 936w,
+	https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto,x_30,y_30/c_scale,w_751/e_shadow:100,x_30,y_30/v1734629657/dnxwkfsctis0ygmk6hyp.jxl 751w,
+	https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto,x_30,y_30/c_scale,w_553/e_shadow:100,x_30,y_30/v1734629657/dnxwkfsctis0ygmk6hyp.jxl 553w,
+	https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto,x_30,y_30/c_scale,w_300/e_shadow:100,x_30,y_30/v1734629657/dnxwkfsctis0ygmk6hyp.jxl 300w
+  " sizes="(min-width: 1200px) 1200px, 100vw"/>
+  <source type="image/avif" srcset="
+	https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto,x_30,y_30/c_scale,w_1014/e_shadow:100,x_30,y_30/v1734629657/dnxwkfsctis0ygmk6hyp.avif 1014w,
+	https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto,x_30,y_30/c_scale,w_1011/e_shadow:100,x_30,y_30/v1734629657/dnxwkfsctis0ygmk6hyp.avif 1011w,
+	https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto,x_30,y_30/c_scale,w_996/e_shadow:100,x_30,y_30/v1734629657/dnxwkfsctis0ygmk6hyp.avif 996w,
+	https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto,x_30,y_30/c_scale,w_936/e_shadow:100,x_30,y_30/v1734629657/dnxwkfsctis0ygmk6hyp.avif 936w,
+	https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto,x_30,y_30/c_scale,w_751/e_shadow:100,x_30,y_30/v1734629657/dnxwkfsctis0ygmk6hyp.avif 751w,
+	https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto,x_30,y_30/c_scale,w_553/e_shadow:100,x_30,y_30/v1734629657/dnxwkfsctis0ygmk6hyp.avif 553w,
+	https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto,x_30,y_30/c_scale,w_300/e_shadow:100,x_30,y_30/v1734629657/dnxwkfsctis0ygmk6hyp.avif 300w
+  " sizes="(min-width: 1200px) 1200px, 100vw"/>
+  <source type="image/jpeg" srcset="
+	https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto,x_30,y_30/c_scale,w_1014/e_shadow:100,x_30,y_30/v1734629657/dnxwkfsctis0ygmk6hyp.jpeg 1014w,
+	https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto,x_30,y_30/c_scale,w_1011/e_shadow:100,x_30,y_30/v1734629657/dnxwkfsctis0ygmk6hyp.jpeg 1011w,
+	https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto,x_30,y_30/c_scale,w_996/e_shadow:100,x_30,y_30/v1734629657/dnxwkfsctis0ygmk6hyp.jpeg 996w,
+	https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto,x_30,y_30/c_scale,w_936/e_shadow:100,x_30,y_30/v1734629657/dnxwkfsctis0ygmk6hyp.jpeg 936w,
+	https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto,x_30,y_30/c_scale,w_751/e_shadow:100,x_30,y_30/v1734629657/dnxwkfsctis0ygmk6hyp.jpeg 751w,
+	https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto,x_30,y_30/c_scale,w_553/e_shadow:100,x_30,y_30/v1734629657/dnxwkfsctis0ygmk6hyp.jpeg 553w,
+	https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto,x_30,y_30/c_scale,w_300/e_shadow:100,x_30,y_30/v1734629657/dnxwkfsctis0ygmk6hyp.jpeg 300w
+  " sizes="(min-width: 1200px) 1200px, 100vw"/>
+  <img src="https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto,x_30,y_30/c_scale,w_300/e_shadow:100,x_30,y_30/v1734629657/dnxwkfsctis0ygmk6hyp.jxl" alt="Jupiter Moon" loading="lazy">
+</picture>
+</div>
+
+<div class="shadow-wrapper">
 <picture>
   <source type="image/jxl" srcset="
 	https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto,x_20,y_20/c_scale,w_2150/e_shadow:75,x_20,y_20/v1734496092/nzabyuxohldpykjvz6cf.jxl 2150w,
