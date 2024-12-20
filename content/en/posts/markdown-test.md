@@ -2,7 +2,65 @@
 title: Markdown test
 date: 2023-08-02
 ---
+<div class="shadow-wrapper">
+<picture class="my-picture">
+  <source type="image/jxl" srcset="
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto,x_20,y_20/c_scale,w_2200/e_shadow:75,x_20,y_20/v1734661953/j5cdlusqz3ajzmvwnslt.jxl 2200w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto,x_20,y_20/c_scale,w_2028/e_shadow:75,x_20,y_20/v1734661953/j5cdlusqz3ajzmvwnslt.jxl 2028w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto,x_20,y_20/c_scale,w_1844/e_shadow:75,x_20,y_20/v1734661953/j5cdlusqz3ajzmvwnslt.jxl 1844w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto,x_20,y_20/c_scale,w_1757/e_shadow:75,x_20,y_20/v1734661953/j5cdlusqz3ajzmvwnslt.jxl 1757w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto,x_20,y_20/c_scale,w_1640/e_shadow:75,x_20,y_20/v1734661953/j5cdlusqz3ajzmvwnslt.jxl 1640w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto,x_20,y_20/c_scale,w_1484/e_shadow:75,x_20,y_20/v1734661953/j5cdlusqz3ajzmvwnslt.jxl 1484w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto,x_20,y_20/c_scale,w_1149/e_shadow:75,x_20,y_20/v1734661953/j5cdlusqz3ajzmvwnslt.jxl 1149w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto,x_20,y_20/c_scale,w_816/e_shadow:75,x_20,y_20/v1734661953/j5cdlusqz3ajzmvwnslt.jxl 816w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto,x_20,y_20/c_scale,w_300/e_shadow:75,x_20,y_20/v1734661953/j5cdlusqz3ajzmvwnslt.jxl 300w
+  " sizes="(min-width: 1200px) 1200px, 100vw"/>
+  <source type="image/avif" srcset="
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto,x_20,y_20/c_scale,w_2200/e_shadow:75,x_20,y_20/v1734661953/j5cdlusqz3ajzmvwnslt.avif 2200w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto,x_20,y_20/c_scale,w_2028/e_shadow:75,x_20,y_20/v1734661953/j5cdlusqz3ajzmvwnslt.avif 2028w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto,x_20,y_20/c_scale,w_1844/e_shadow:75,x_20,y_20/v1734661953/j5cdlusqz3ajzmvwnslt.avif 1844w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto,x_20,y_20/c_scale,w_1757/e_shadow:75,x_20,y_20/v1734661953/j5cdlusqz3ajzmvwnslt.avif 1757w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto,x_20,y_20/c_scale,w_1640/e_shadow:75,x_20,y_20/v1734661953/j5cdlusqz3ajzmvwnslt.avif 1640w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto,x_20,y_20/c_scale,w_1484/e_shadow:75,x_20,y_20/v1734661953/j5cdlusqz3ajzmvwnslt.avif 1484w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto,x_20,y_20/c_scale,w_1149/e_shadow:75,x_20,y_20/v1734661953/j5cdlusqz3ajzmvwnslt.avif 1149w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto,x_20,y_20/c_scale,w_816/e_shadow:75,x_20,y_20/v1734661953/j5cdlusqz3ajzmvwnslt.avif 816w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto,x_20,y_20/c_scale,w_300/e_shadow:75,x_20,y_20/v1734661953/j5cdlusqz3ajzmvwnslt.avif 300w
+  " sizes="(min-width: 1200px) 1200px, 100vw"/>
+  <source type="image/jpeg" srcset="
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto,x_20,y_20/c_scale,w_2200/e_shadow:75,x_20,y_20/v1734661953/j5cdlusqz3ajzmvwnslt.jpeg 2200w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto,x_20,y_20/c_scale,w_2028/e_shadow:75,x_20,y_20/v1734661953/j5cdlusqz3ajzmvwnslt.jpeg 2028w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto,x_20,y_20/c_scale,w_1844/e_shadow:75,x_20,y_20/v1734661953/j5cdlusqz3ajzmvwnslt.jpeg 1844w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto,x_20,y_20/c_scale,w_1757/e_shadow:75,x_20,y_20/v1734661953/j5cdlusqz3ajzmvwnslt.jpeg 1757w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto,x_20,y_20/c_scale,w_1640/e_shadow:75,x_20,y_20/v1734661953/j5cdlusqz3ajzmvwnslt.jpeg 1640w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto,x_20,y_20/c_scale,w_1484/e_shadow:75,x_20,y_20/v1734661953/j5cdlusqz3ajzmvwnslt.jpeg 1484w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto,x_20,y_20/c_scale,w_1149/e_shadow:75,x_20,y_20/v1734661953/j5cdlusqz3ajzmvwnslt.jpeg 1149w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto,x_20,y_20/c_scale,w_816/e_shadow:75,x_20,y_20/v1734661953/j5cdlusqz3ajzmvwnslt.jpeg 816w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto,x_20,y_20/c_scale,w_300/e_shadow:75,x_20,y_20/v1734661953/j5cdlusqz3ajzmvwnslt.jpeg 300w
+  " sizes="(min-width: 1200px) 1200px, 100vw"/>
+  <img src="https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto,x_20,y_20/c_scale,w_300/e_shadow:75,x_20,y_20/v1734661953/j5cdlusqz3ajzmvwnslt.jxl" alt="Cat Rest" loading="lazy">
+</picture>
+</div>
+<style>
+  .credit-container {
+    font-size: 10px;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .icon {
+    width: 1em;
+    height: 1em;
+    margin-left: 0.25em;
+  }
+</style>
 
+<p class="credit-container">
+  <em>Photo by <a href="https://unsplash.com/photos/a-white-cat-wearing-a-yellow-hat-on-top-of-a-wooden-dock-aplsoLbQFMM?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash">Kayvan Mazhar</a> on</em>
+  <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+    <path d="M448,230.17V480H0V230.17H141.13V355.09H306.87V230.17ZM306.87,32H141.13V156.91H306.87Z"/>
+  </svg>
+</p>
 **Contents:**
 
 [[toc]]
