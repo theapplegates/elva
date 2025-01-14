@@ -12,7 +12,7 @@ body {
     background-color: var(--background);
     color: var(--foreground);
     font-family: var(--font-base);
-    font-size: var(--step-0);
+    font-size: var(--size-step-min-1);
     line-height: 1.4;
     letter-spacing: var(--tracking);
     transition: background var(--transition-base), color var(--transition-base);
@@ -90,6 +90,7 @@ h3,
 h4,
 h5,
 h6 {
+    font-size: var(--size-step-min-1);
     font-family: var(--font-headings);
     text-wrap: balance;
 }
