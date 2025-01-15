@@ -42,10 +42,6 @@ body {
 :target {
     scroll-margin-top: 2ex;
 }
- img {
-    width: 50%;
-    height: auto;
-}
 
 a {
     color: var(--link);
