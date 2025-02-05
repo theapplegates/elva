@@ -5,12 +5,12 @@ export default {
 			url: '/about/'
 		},
 		{
-			text: 'Documentation',
+			text: 'Blog',
 			url: '/'
 		},
 		{
-			text: 'GitHub',
-			url: 'https://github.com/scottsweb/elva'
+			text: 'Search',
+			url: '/search/'
 		}
     ],
     sv: [
