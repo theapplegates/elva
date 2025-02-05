@@ -2,6 +2,10 @@
 title: The Game Show
 date: 2025-02-14
 ---
+
+<img src="https://res.cloudinary.com/paulapplegate-com/image/upload/v1738591709/uyrojeecojg7hkc4bt0p.jxl" alt="alt text">
+
+
 <div class="shadow-wrapper">
 <picture class="responsive-picture">
   <source type="image/jxl" srcset="
