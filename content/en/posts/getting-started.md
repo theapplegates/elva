@@ -3,6 +3,20 @@ title: Getting started
 date: 2023-08-06
 ---
 
+<div class="shadow-wrapper">
+<picture class="responsive-picture">
+  <source type="image/jxl" srcset="
+  " sizes="(min-width: 1200px) 1200px, 100vw"/>
+  <source type="image/avif" srcset="
+  " sizes="(min-width: 1200px) 1200px, 100vw"/>
+  <source type="image/jpeg" srcset="
+  " sizes="(min-width: 1200px) 1200px, 100vw"/>
+  <img src="https://res.cloudinary.com/paulapplegate-com/image/upload/v1740507207/r9wgl0kwbc8qjwmixwjf.jxl" alt="Responsive Image" loading="lazy"></img>
+</picture>
+</div>
+
+
+
 Make a directory and navigate to it:
 
 ``` bash
