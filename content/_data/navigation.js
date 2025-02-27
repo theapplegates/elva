@@ -1,6 +1,10 @@
 export default {
     en: [
 		{
+			text: 'Search',
+			url: '/search/'
+		},
+		{
 			text: 'About',
 			url: '/about/'
 		},
