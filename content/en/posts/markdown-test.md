@@ -98,3 +98,43 @@ Right aligned columns
 | Fuseu  | Aenean ac tincidunt felis. Fusce eu arcu blandit, consectetur odio ullamcorper. |
 | Maxim  | Fusce eu arcu blandit, consectetur odio ullamcorper, maximus erat. |
 | Odio   | Praesent quis sodales orci. |
+
+
+<div class="shadow-wrapper">
+<picture class="responsive-picture">
+  <source type="image/jxl" srcset="
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/c_scale,w_2150/v1740617585/g5lgbbp26ptg7og1dzyy.jxl 2150w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/c_scale,w_2098/v1740617585/g5lgbbp26ptg7og1dzyy.jxl 2098w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/c_scale,w_2039/v1740617585/g5lgbbp26ptg7og1dzyy.jxl 2039w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/c_scale,w_1721/v1740617585/g5lgbbp26ptg7og1dzyy.jxl 1721w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/c_scale,w_1490/v1740617585/g5lgbbp26ptg7og1dzyy.jxl 1490w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/c_scale,w_1228/v1740617585/g5lgbbp26ptg7og1dzyy.jxl 1228w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/c_scale,w_914/v1740617585/g5lgbbp26ptg7og1dzyy.jxl 914w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/c_scale,w_636/v1740617585/g5lgbbp26ptg7og1dzyy.jxl 636w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/c_scale,w_250/v1740617585/g5lgbbp26ptg7og1dzyy.jxl 250w
+  " sizes="(min-width: 1200px) 1200px, 100vw"/>
+  <source type="image/avif" srcset="
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/c_scale,w_2150/v1740617585/g5lgbbp26ptg7og1dzyy.avif 2150w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/c_scale,w_2098/v1740617585/g5lgbbp26ptg7og1dzyy.avif 2098w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/c_scale,w_2039/v1740617585/g5lgbbp26ptg7og1dzyy.avif 2039w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/c_scale,w_1721/v1740617585/g5lgbbp26ptg7og1dzyy.avif 1721w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/c_scale,w_1490/v1740617585/g5lgbbp26ptg7og1dzyy.avif 1490w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/c_scale,w_1228/v1740617585/g5lgbbp26ptg7og1dzyy.avif 1228w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/c_scale,w_914/v1740617585/g5lgbbp26ptg7og1dzyy.avif 914w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/c_scale,w_636/v1740617585/g5lgbbp26ptg7og1dzyy.avif 636w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/c_scale,w_250/v1740617585/g5lgbbp26ptg7og1dzyy.avif 250w
+  " sizes="(min-width: 1200px) 1200px, 100vw"/>
+  <source type="image/jpeg" srcset="
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/c_scale,w_2150/v1740617585/g5lgbbp26ptg7og1dzyy.jpeg 2150w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/c_scale,w_2098/v1740617585/g5lgbbp26ptg7og1dzyy.jpeg 2098w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/c_scale,w_2039/v1740617585/g5lgbbp26ptg7og1dzyy.jpeg 2039w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/c_scale,w_1721/v1740617585/g5lgbbp26ptg7og1dzyy.jpeg 1721w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/c_scale,w_1490/v1740617585/g5lgbbp26ptg7og1dzyy.jpeg 1490w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/c_scale,w_1228/v1740617585/g5lgbbp26ptg7og1dzyy.jpeg 1228w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/c_scale,w_914/v1740617585/g5lgbbp26ptg7og1dzyy.jpeg 914w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/c_scale,w_636/v1740617585/g5lgbbp26ptg7og1dzyy.jpeg 636w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/c_scale,w_250/v1740617585/g5lgbbp26ptg7og1dzyy.jpeg 250w
+  " sizes="(min-width: 1200px) 1200px, 100vw"/>
+  <img src="https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/c_scale,w_250/v1740617585/g5lgbbp26ptg7og1dzyy.jxl" alt="Responsive Image" loading="lazy"></img>
+</picture>
+</div>
