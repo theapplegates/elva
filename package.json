@@ -5,13 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-<<<<<<< HEAD
-    "build": "rimraf dist && npx @11ty/eleventy",
-    "build:prod": "export NODE_ENV=production && rimraf dist && npx @11ty/eleventy && npx -y pagefind --site dist",
-=======
     "build": "rimraf dist && npx @11ty/eleventy && npx -y pagefind --site dist",
     "build:prod": "export NODE_ENV=production && rimraf dist && npx @11ty/eleventy",
->>>>>>> main
     "build:stage": "export NODE_ENV=staging && rimraf dist && npx @11ty/eleventy",
     "dev": "npx @11ty/eleventy --watch --serve --incremental",
     "clean": "rimraf dist",
@@ -23,7 +18,7 @@
     "release-major": "npm version major --force && npm publish"
   },
   "bugs": {
-    "url": "https://github.com/scottsweb/elva/issues"
+    "url": "https://github.com/theapplegates/elva/issues"
   },
   "keywords": [
     "eleventy",
@@ -38,15 +33,15 @@
     "alpine"
   ],
   "author": {
-    "name": "Scott Evans",
-    "url": "https://scott.ee",
-    "email": "git@scott.ee"
+    "name": "Paul Applegate",
+    "url": "https://paulapplegate.com",
+    "email": "me@paulapplegate.com"
   },
   "license": "MIT",
   "dependencies": {
-    "@11ty/eleventy": "3.0.1-alpha.4",
+    "@11ty/eleventy": "3.0.0",
     "@11ty/eleventy-fetch": "^5.0.2",
-    "@11ty/eleventy-img": "6.0.1",
+    "@11ty/eleventy-img": "^5.0.0",
     "@11ty/eleventy-plugin-rss": "^2.0.3",
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
     "@alpinejs/intersect": "^3.14.8",
