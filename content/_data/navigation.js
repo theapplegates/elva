@@ -1,6 +1,10 @@
 export default {
     en: [
 		{
+			text: 'Search',
+			url: '/search/'
+		},
+		{
 			text: 'About',
 			url: '/about/'
 		},
@@ -8,10 +12,7 @@ export default {
 			text: 'Blog',
 			url: '/'
 		},
-		{
-			text: 'Search',
-			url: '/search/'
-		}
+		
     ],
     sv: [
 		{

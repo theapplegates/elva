@@ -5,8 +5,13 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+<<<<<<< HEAD
     "build": "rimraf dist && npx @11ty/eleventy",
     "build:prod": "export NODE_ENV=production && rimraf dist && npx @11ty/eleventy && npx -y pagefind --site dist",
+=======
+    "build": "rimraf dist && npx @11ty/eleventy && npx -y pagefind --site dist",
+    "build:prod": "export NODE_ENV=production && rimraf dist && npx @11ty/eleventy",
+>>>>>>> main
     "build:stage": "export NODE_ENV=staging && rimraf dist && npx @11ty/eleventy",
     "dev": "npx @11ty/eleventy --watch --serve --incremental",
     "clean": "rimraf dist",
@@ -47,7 +52,7 @@
     "@alpinejs/intersect": "^3.14.8",
     "alpinejs": "^3.14.8",
     "browserslist": "^4.24.4",
-    "eleventy-plugin-embed-everything": "^1.19.0",
+    "eleventy-plugin-embed-everything": "^1.20.0",
     "html-minifier-terser": "^7.2.0",
     "lightningcss": "^1.27.0",
     "lodash.get": "^4.4.2",
