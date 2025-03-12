@@ -1,6 +1,6 @@
 ---
 title: Getting started
-date: 2023-08-06
+date: 2023-08-07
 ---
 
 <div class="shadow-wrapper">
