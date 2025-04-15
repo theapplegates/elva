@@ -3,25 +3,7 @@ title: Getting started
 date: 2023-08-07
 ---
 
-<html>
-  <head>
-	<title>
-	  Auto Responsive Images with Cloudinary
-	</title>
-	<script src="https://unpkg.com/cloudinary-core@latest/cloudinary-core-shrinkwrap.js" type="text/javascript">
-	</script>
-  </head>
-  <body>
-	<img data-src="https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_auto/f_auto,q_auto/v1744484129/responsive_images/maksym-mazur-Window_Girl-Christmas_crivce.jpg
-	class="cld-responsive">
-	<script type="text/javascript">
-	  var cl = cloudinary.Cloudinary.new({
-		cloud_name: "paulapplegate-com"
-	  });
-	  cl.responsive();
-	</script>
-  </body>
-</html>
+<img src="https://res.cloudinary.com/paulapplegate-com/image/upload/v1744484129/f_jxl,q_auto,ar_16:9,c_fill/c_limit,w_auto:breakpoints_200_1920_30_15/responsive_images/maksym-mazur-Window_Girl-Christmas_crivce.jpg", alt="Christmas Dreams", sizes="100vw" />
 
 
 Make a directory and navigate to it:
